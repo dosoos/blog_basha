@@ -1,6 +1,6 @@
 baseURL: 'https://www.dosoos.com'
 languageCode: en-us
-theme: stack
+theme: hugo-theme-stack
 paginate: 5
 title: DevBash
 
