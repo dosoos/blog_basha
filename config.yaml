@@ -51,7 +51,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: " 🤹🏽 独立开发者 & 程序员 ♡    👨‍🔧Java Python Vue android iOS solidity etc.    ✅微信dosoos 欢迎沟通交流"
+        subtitle: " 🤹🏽 独立开发者 & 程序员 ♡     ✅ 微信dosoos 可接单"
         avatar:
             enabled: true
             local: true
@@ -67,14 +67,14 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: disqusjs
 
         disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
+            shortname: kai-fa-zhe-ba-sha
+            apiUrl: https://disqus.com/api/3.0/threads/set.json
+            apiKey: X9zSh9vd80gLuIBFoBP8dQwo0N8l4C6SVnceuH6L9qOlTocUqgvW51JmceZLB7l6
+            admin: admin
+            adminLabel: admin
 
         utterances:
             repo:
@@ -189,19 +189,6 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
-
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
-
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
 
 related:
     includeNewer: true
