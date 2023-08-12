@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: ""
 description: ""
 image: ""
 keywords: ""
