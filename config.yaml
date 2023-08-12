@@ -8,13 +8,16 @@ languages:
     en:
         languageName: English
         title: DevBash
-        description: Full stack developer
         weight: 1
+        params:
+            description: Full stack developer
+
     zh-cn:
         languageName: 中文
         title: 开发者巴沙
-        description: 个人独立开发者的博客
         weight: 2
+        params:
+            description: 个人独立开发者的博客
 
 # Change it to your Disqus shortname before using
 disqusShortname: dosoos
