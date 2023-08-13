@@ -1,7 +1,7 @@
 ---
 title: "Django Admin管理后台如何导出Excel表格"
-description: "Django自带的管理后无法导出Excel表格，第三方的插件导出的话会很繁琐，而且导出格式会携带很多数据库冗余字段，使得表格很难看。给大家看一下我的解决办法"
-image: "1.png"
+description: "Django自带的管理后无法导出Excel表格，第三方的插件导出的话会很繁琐。给大家看一下我的解决办法，后台数据原样导出"
+image: "/img/django2excel1.png"
 keywords: ""
 readingTime: true
 categories: ['开发技巧']
@@ -12,7 +12,7 @@ draft: false
 
 Django自带的管理后无法导出Excel表格，第三方的插件导出的话会很繁琐，而且导出格式会携带很多数据库冗余字段，使得表格很难看。给大家看一下我的解决办法，100%所见即所得，原样导出后台界面数据为Excel表格
 
-![django管理后台](1.png "django管理后台")
+![django管理后台](/img/django2excel1.png "django管理后台")
 
 ## 一共分三步
  - 安装Excel依赖
@@ -83,6 +83,6 @@ class OrderAdmin(admin.ModelAdmin, ExportExcelMixin):
 ---
 
 导出的格式是这样
-![django后台数据导出](2.png "django后台数据导出")
+![django后台数据导出](/img/django2excel2.png "django后台数据导出")
 
 现在订单模型的管理后台即可有导出按钮，选择指定列以后，点击导出Excel即可将页面内容导出为Excel。
