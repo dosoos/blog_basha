@@ -1,7 +1,7 @@
 ---
 title: "Django Admin管理后台如何导出Excel表格"
 description: "Django自带的管理后无法导出Excel表格，第三方的插件导出的话会很繁琐。给大家看一下我的解决办法，后台数据原样导出"
-image: "/img/django2excel1.png"
+image: "/img/django2excel0.png"
 keywords: ""
 readingTime: true
 categories: ['开发技巧']
